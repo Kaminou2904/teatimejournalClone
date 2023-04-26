@@ -1,0 +1,102 @@
+.touchHeading{
+    padding: 3rem;
+    text-align: center;
+    background-color: #fff5f5;
+}
+
+.touchHeading p{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form p{
+    font-size: 25px;
+    padding-bottom: 2rem;
+}
+
+.form input, textarea{
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    background-color: rgb(240, 240, 240);
+    outline: none;
+    border: none;
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+}
+
+.btn{
+    width: 80%;
+    text-align: left;
+}
+
+.btn button{
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #f18977;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: #f06d56;
+}
+
+.contactImg{
+    width: 50%;
+    padding: 1rem;
+}
+
+.contactImg img{
+    width: 100%;
+}
+
+.footer{
+    padding: 2rem;
+    background-color: #fff5f5;
+    border-top: 1px solid #eeeeee;
+}
+
+@media screen and (max-width: 900px){
+    .touchHeading{
+        margin-bottom: 40px;
+    }
+    .main{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .form{
+        width: 100%;
+    }
+    .contactImg{
+        width: 80%;
+    }
+    .btn button{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .form p{
+        font-size: 18px;
+    }
+}

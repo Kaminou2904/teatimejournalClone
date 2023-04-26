@@ -1,0 +1,21 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/1dcc9f863c.js" crossorigin="anonymous"></script>
+
+<nav>
+  <img src="https://teatimejournal.com/wp-content/uploads/2022/08/cropped-TeaTimeTransperentBg-260x104.png" alt="">
+  <div class="cross" (click)="xFunc()" [style.display]="disp">
+    <h1 [style.display]="disp">X</h1>
+  </div>
+  <div class="navIcon" (click)="navFunc()">
+    <img id="navBtn" src="https://cdn.onlinewebfonts.com/svg/img_510724.png" alt="">
+  </div>
+  <ul [style.right]="posi">
+    <li  ><a [routerLinkActive]="'active'" [routerLinkActiveOptions]="{exact: true}" routerLink="">Home</a></li>
+    <li><a [routerLinkActive]="'active'" routerLink="about">About</a></li>
+    <li><a [routerLinkActive]="'active'" routerLink="contact">Get in touch</a></li>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>
