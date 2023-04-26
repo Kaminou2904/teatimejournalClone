@@ -1,4 +1,4 @@
-# This is a clone of teatimejournal.com wesite.
+# This is a clone of teatimejournal.com website.
 
 ## This is an Angular project.
 
